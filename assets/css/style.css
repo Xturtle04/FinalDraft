@@ -88,7 +88,11 @@ header {
 .main-content {
     background-color: #000000;
     min-height: calc(100vh - 120px);
-    background-image: url('background.jpg');
+}
+
+/* Homepage specific background */
+.main-content.homepage {
+    background-image: url('../images/space-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
