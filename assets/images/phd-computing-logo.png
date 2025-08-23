@@ -1,1 +1,11 @@
-<!-- This is a placeholder for the logo image file. The actual logo image should be saved here. -->
+PHD Computing Logo Placeholder
+
+Note: Replace this file with the actual PHD Computing logo image (the red gradient logo with white text that was provided).
+
+The logo should be:
+- Format: PNG with transparency
+- Size: Approximately 200x200 pixels or similar square/rectangular format
+- The red gradient logo with white "PHD Computing" text
+- Optimized for web use
+
+The CSS is already configured to display it as 50px x 50px in the navigation bar.
