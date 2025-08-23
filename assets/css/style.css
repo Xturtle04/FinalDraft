@@ -633,17 +633,9 @@ footer {
 
 /* Mobile Responsive Styles */
 @media screen and (max-width: 768px) {
-    .nav-logo {
-        gap: 0.5rem;
-    }
-    
-    .logo-img {
-        width: 40px;
+    .main-logo {
         height: 40px;
-    }
-    
-    .nav-logo h2 {
-        font-size: 1.3rem;
+        max-width: 160px;
     }
 
     .nav-menu {
@@ -703,7 +695,8 @@ footer {
         gap: 1.5rem;
     }
 
-    .content-with-image {
+    .content-with-image,
+    .content-with-image.reverse {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
@@ -713,6 +706,16 @@ footer {
     }
 
     .business-services {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .enterprise-gallery {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
@@ -736,7 +739,8 @@ footer {
         padding: 0 1rem;
     }
 
-    .cta-section {
+    .cta-section,
+    .contact-cta {
         margin-top: 2rem;
         padding: 2rem 1rem;
     }
