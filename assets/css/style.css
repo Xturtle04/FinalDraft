@@ -440,6 +440,146 @@ header {
     margin-bottom: 0.5rem;
 }
 
+/* New Image Layout Styles */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.service-item-large {
+    background: rgba(139, 0, 0, 0.1);
+    border: 1px solid #8B0000;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-item-large:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(139, 0, 0, 0.3);
+}
+
+.service-item-large img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-content {
+    padding: 2rem;
+}
+
+.service-content h3 {
+    color: #8B0000;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.service-content p {
+    color: #cccccc;
+}
+
+/* Enterprise Gallery */
+.enterprise-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.enterprise-item {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.enterprise-item:hover {
+    transform: scale(1.05);
+}
+
+.enterprise-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.enterprise-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(139, 0, 0, 0.9));
+    color: white;
+    padding: 2rem;
+    transform: translateY(60%);
+    transition: transform 0.3s ease;
+}
+
+.enterprise-item:hover .enterprise-overlay {
+    transform: translateY(0);
+}
+
+.enterprise-overlay h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.enterprise-overlay p {
+    font-size: 0.9rem;
+    color: #ffcccc;
+}
+
+/* Content Section Text */
+.content-section-text {
+    margin: 3rem 0;
+}
+
+.content-section-text h3 {
+    color: #8B0000;
+    font-size: 1.3rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.content-section-text p {
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+}
+
+/* Contact CTA */
+.contact-cta {
+    text-align: center;
+    margin: 4rem 0 2rem;
+    padding: 3rem 2rem;
+    background: rgba(139, 0, 0, 0.1);
+    border: 1px solid #8B0000;
+    border-radius: 8px;
+}
+
+.contact-cta h3 {
+    color: white;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.contact-cta p {
+    color: #cccccc;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Content with Image Reverse */
+.content-with-image.reverse {
+    grid-template-columns: 1fr 2fr;
+}
+
+.content-with-image.reverse .content-image {
+    order: -1;
+}
+
 /* Footer */
 footer {
     background-color: #8B0000;
