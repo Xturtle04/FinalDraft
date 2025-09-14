@@ -92,7 +92,7 @@ header {
 
 /* Homepage specific background */
 .main-content.homepage {
-    background-image: url('../images/space-background.jpg');
+    background-image: url('./assets/images/space-background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
