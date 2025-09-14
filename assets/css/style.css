@@ -667,7 +667,7 @@ footer {
     }
 
     .nav-toggle.active .bar:nth-child(2) {
-        opacity: 0;
+        opacity: 1;
     }
 
     .nav-toggle.active .bar:nth-child(1) {
