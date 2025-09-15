@@ -23,6 +23,12 @@ header {
     box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
+img {
+  display: block;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
 .navbar {
     width: 100%;
 }
